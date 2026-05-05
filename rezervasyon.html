@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervasyon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"> Noir<span>&Or</span></div>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="menuler.html">Menuler</a>
+      <a href="rezervasyon.html">Rezervasyon</a>
+      <a href="iletisim.html">iletisim</a>
+    </nav>
+  </header>
+
+  <section class="reservation-section">
+    <div class="reservation-info">
+      <h1>Masa Rezervasyonu</h1>
+      <p>
+        Size en uygun masa deneyimini hazırlayabilmemiz için lütfen rezervasyon
+        bilgilerinizi doldurunuz.
+      </p>
+
+      <div class="info-box">
+        <h3>Not</h3>
+        <p>Rezervasyon talebiniz restoran görevlisi tarafından kontrol edildikten sonra onaylanır.</p>
+      </div>
+    </div>
+
+    <form class="reservation-form">
+      <label>Ad Soyad</label>
+      <input type="text" placeholder="Adınızı giriniz" required>
+
+      <label>Telefon</label>
+      <input type="tel" placeholder="05XX XXX XX XX" required>
+
+      <label>Tarih</label>
+      <input type="date" required>
+
+      <label>Saat</label>
+      <input type="time" required>
+
+      <label>Kişi Sayısı</label>
+      <select required>
+        <option value="">Seçiniz</option>
+        <option>2 Kişi</option>
+        <option>4 Kişi</option>
+        <option>6 Kişi</option>
+        <option>8+ Kişi</option>
+      </select>
+
+      <label>Masa Türü</label>
+      <select required>
+        <option value="">Masa seçiniz</option>
+        <option>Altın Salon</option>
+        <option>VIP Siyah Masa</option>
+        <option>Pencere Kenarı</option>
+        <option>Sessiz Köşe</option>
+      </select>
+
+      <label>Özel Not</label>
+      <textarea placeholder="Varsa özel isteğinizi yazınız"></textarea>
+
+      <button type="submit">Rezervasyon Gönder</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Noir & Or Restaurant | Masa Rezervasyon Sistemi</p>
+  </footer>
+    
+</body>
+</html>
