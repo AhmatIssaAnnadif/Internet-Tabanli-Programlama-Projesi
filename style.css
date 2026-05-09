@@ -24,9 +24,13 @@ body {
 
 .logo {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   color: #f8f3ea;
+}
+.logo a {
+  text-decoration: none;  
+
 }
 
 .logo span {
